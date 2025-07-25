@@ -1,0 +1,49 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.8.34330.188
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SensorAPI", "SensorAPI\SensorAPI.csproj", "{C6FFF1F2-CC70-4EDD-9782-DBF9B508B2D7}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SensorAPI.BusinessLayer", "SensorApi.BusinessLayer\SensorAPI.BusinessLayer.csproj", "{2FACB195-11F6-4375-8B19-383E0A1828E4}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SensorAPI.DataLayer", "SensorAPI.DataLayer\SensorAPI.DataLayer.csproj", "{B54D0D4A-26EE-4C37-B5D4-5B402E6EE737}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SensorAPI.Models", "SensorAPI.Models\SensorAPI.Models.csproj", "{EC1D5B58-EA3D-4EBF-AB28-843C9E4519E2}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SensorApi.BusinessLayer.Tests", "SensorApi.BusinessLayer.Tests\SensorApi.BusinessLayer.Tests.csproj", "{2A09D8F6-9672-4BD0-8CB2-50178C73D986}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{C6FFF1F2-CC70-4EDD-9782-DBF9B508B2D7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C6FFF1F2-CC70-4EDD-9782-DBF9B508B2D7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C6FFF1F2-CC70-4EDD-9782-DBF9B508B2D7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C6FFF1F2-CC70-4EDD-9782-DBF9B508B2D7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2FACB195-11F6-4375-8B19-383E0A1828E4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2FACB195-11F6-4375-8B19-383E0A1828E4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2FACB195-11F6-4375-8B19-383E0A1828E4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2FACB195-11F6-4375-8B19-383E0A1828E4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B54D0D4A-26EE-4C37-B5D4-5B402E6EE737}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B54D0D4A-26EE-4C37-B5D4-5B402E6EE737}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B54D0D4A-26EE-4C37-B5D4-5B402E6EE737}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B54D0D4A-26EE-4C37-B5D4-5B402E6EE737}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EC1D5B58-EA3D-4EBF-AB28-843C9E4519E2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EC1D5B58-EA3D-4EBF-AB28-843C9E4519E2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EC1D5B58-EA3D-4EBF-AB28-843C9E4519E2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EC1D5B58-EA3D-4EBF-AB28-843C9E4519E2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2A09D8F6-9672-4BD0-8CB2-50178C73D986}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2A09D8F6-9672-4BD0-8CB2-50178C73D986}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2A09D8F6-9672-4BD0-8CB2-50178C73D986}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2A09D8F6-9672-4BD0-8CB2-50178C73D986}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {654B683B-79DA-454D-9F0E-F1A426C552FA}
+	EndGlobalSection
+EndGlobal
